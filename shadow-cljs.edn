@@ -1,0 +1,14 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/dev"
+  "src/main"
+  "src/test"]
+
+ :dependencies
+ [[applied-science/js-interop "0.4.2"]]
+ :dev-http {8080 "public"}
+ :builds
+ {:node
+  {:target :esm
+   :output-dir "public/js"
+   :modules {:node {:exports {nodeAtCursor acme.frontend.node/node-at-cursor}}}}}}

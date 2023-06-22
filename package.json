@@ -1,0 +1,14 @@
+{
+  "name": "acme-app",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "shadow-cljs": "2.23.8"
+  },
+  "dependencies": {
+    "@codemirror/language": "^6.8.0",
+    "@codemirror/state": "^6.2.1",
+    "@lezer/common": "^1.0.3",
+    "@nextjournal/lezer-clojure": "^1.0.0"
+  }
+}
